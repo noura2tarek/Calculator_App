@@ -6,6 +6,7 @@ class CustomElevatedButton extends StatelessWidget {
       required this.text,
       required this.onPressed,
       this.backgroundColor = Colors.teal});
+
   final String text;
   final void Function() onPressed;
   final Color? backgroundColor;

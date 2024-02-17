@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class CustomOutlinedButton extends StatelessWidget {
   const CustomOutlinedButton(
       {super.key, required this.text, required this.onPressed});
+
   final String text;
   final void Function() onPressed;
 
@@ -19,7 +20,9 @@ class CustomOutlinedButton extends StatelessWidget {
           ),
           child: Text(
             text,
-            style: const TextStyle(fontSize: 25.0,),
+            style: const TextStyle(
+              fontSize: 25.0,
+            ),
           )),
     );
   }

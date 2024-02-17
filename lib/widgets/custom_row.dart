@@ -14,6 +14,7 @@ class CustomRow extends StatelessWidget {
       required this.onPressednumber2,
       required this.onPressednumber3,
       this.backgroundColor = Colors.teal});
+
   final String number1;
   final String number2;
   final String number3;
@@ -23,6 +24,7 @@ class CustomRow extends StatelessWidget {
   final void Function() onPressednumber1;
   final void Function() onPressednumber2;
   final void Function() onPressednumber3;
+
   @override
   Widget build(BuildContext context) {
     return Row(
