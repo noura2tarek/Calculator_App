@@ -3,17 +3,18 @@ import 'package:flutter_application_2/widgets/custom_elevated_button.dart';
 import 'package:flutter_application_2/widgets/custom_outlinedButton.dart';
 
 class CustomRow extends StatelessWidget {
-  const CustomRow(
-      {super.key,
-      required this.number1,
-      required this.number2,
-      required this.number3,
-      required this.operation,
-      required this.onPressedOperation,
-      required this.onPressednumber1,
-      required this.onPressednumber2,
-      required this.onPressednumber3,
-      this.backgroundColor = Colors.teal});
+  const CustomRow({
+    super.key,
+    required this.number1,
+    required this.number2,
+    required this.number3,
+    required this.operation,
+    required this.onPressedOperation,
+    required this.onPressednumber1,
+    required this.onPressednumber2,
+    required this.onPressednumber3,
+    this.backgroundColor = Colors.teal,
+  });
 
   final String number1;
   final String number2;
